@@ -1,0 +1,16 @@
+{
+    "user": {
+        "name": "pi",
+        "group": "pi",
+        "home": "/home/pi",
+        "password": "raspberry"
+    },
+    "version": {
+        "ruby": "2.1.2"
+    },
+    "run_list": [
+        "apt-get",
+        "git",
+        "ruby",
+    ]
+}
